@@ -48,6 +48,7 @@ Access the public ALB DNS in a browser → you'll be routed through NGINX to Apa
 ALB health checks ensure NGINX and Apache layers are responsive.
 
 🔐 Prerequisites
+
 AWS CLI configured
 
 A valid AWS Key Pair
@@ -55,10 +56,11 @@ A valid AWS Key Pair
 Terraform v1.3+
 
 🧼 Cleanup
-bash
-Copy
-Edit
+
 terraform destroy
+
 ✍️ Author
+
 Ahmed Orabi
+
 💼 DevOps | Cloud Engineer | Infrastructure as Code
