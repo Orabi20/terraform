@@ -1,4 +1,4 @@
-[⚠️ Suspicious Content] 📦 Terraform AWS Infrastructure Lab
+📦 Terraform AWS Infrastructure Lab
 This project builds a complete modular AWS infrastructure using Terraform. It simulates a real-world, secure architecture where a public-facing ALB routes traffic through reverse proxy EC2 instances (NGINX) to Apache servers hosted in private subnets.
 
 🔧 Features
@@ -38,8 +38,7 @@ terraform-lab/
 │   ├── alb/
 │   ├── ec2/
 ├── user_data/
-│   ├── setup-nginx.sh.tpl
-│   
+│   └──  setup-nginx.sh.tpl  
 └── README.md
 🏗️ Architecture Diagram
 less
