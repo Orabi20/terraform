@@ -23,7 +23,9 @@ This project builds a complete modular AWS infrastructure using Terraform. It si
 🛡️ Minimal hardcoding — fully variable-driven
 
 🗂️ Project Structure
+
 ![WhatsApp Image 2025-05-19 at 12 22 39_7213c477](https://github.com/user-attachments/assets/8eea28d9-d9a4-4974-bd42-c188ecb279c9)
+
 
                   
 🚀 Usage
