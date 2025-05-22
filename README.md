@@ -23,40 +23,9 @@ This project builds a complete modular AWS infrastructure using Terraform. It si
 🛡️ Minimal hardcoding — fully variable-driven
 
 🗂️ Project Structure
-bash
-Copy
-Edit
-terraform-lab/
-├── main.tf
-├── variables.tf
-├── backend.tf
-├── terraform.tfvars
-├── modules/
-│   ├── vpc/
-│   ├── subnets/
-│   ├── security_groups/
-│   ├── alb/
-│   ├── ec2/
-├── user_data/
-│   └──  setup-nginx.sh.tpl  
-└── README.md
-🏗️ Architecture Diagram
-less
-Copy
-Edit
-                    [ Public ALB ]
-                          |
-                ---------------------
-                |                   |
-        [ Reverse Proxy EC2 ]   [ Reverse Proxy EC2 ]
-                |                   |
-                ---------------------
-                          |
-                    [ Private ALB ]
-                          |
-                ---------------------
-                |                   |
-        [ Apache EC2 (private) ] [ Apache EC2 (private) ]
+![WhatsApp Image 2025-05-19 at 12 22 39_7213c477](https://github.com/user-attachments/assets/8eea28d9-d9a4-4974-bd42-c188ecb279c9)
+
+                  
 🚀 Usage
 1. Initialize Terraform
 bash
